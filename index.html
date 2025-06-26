@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Presentación - Estancia La Frontera</title>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="estilos.css" rel="stylesheet">
+<script src="script.js"></script>
+
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	<header>
+		<a href="https://irinaspinoso.github.io/sitio-web---Estancia-La-Frontera/" target="_blank">
+    	<img class="logo" src="https://irinaspinoso.github.io/sitio-web---Estancia-La-Frontera/logoestancia.png" alt="la frontera">
+		</a>
+		
+
+<div class="menu-icon">☰</div>
+  <nav class="main-nav" id="mobileMenu">
+    <ul class="barra">
+      <li><a href="#elsitio">EL SITIO</a></li>
+      <li><a href="#propuesta">PROPUESTA</a></li>
+      <li><a href="#wireframe">WIREFRAME</a></li>
+      <li><a href="#diseño">DISEÑO</a></li>
+      <li><a href="#resultado">RESULTADO</a></li>
+      <li><a href="#presupuesto">PRESUPUESTO</a></li>
+    </ul>
+  </nav>
+
+
+	</header>
+	
+	<div class="scroll-top" onclick="scrollToTop()">▲</div>
+
+	
+	
+	<div class="contenedor1">
+		<section id="elsitio" class="contenedor2">
+        <img src="elsitio.png" alt="elsitio" class="elsitio">
+		<div class="texto">
+            <h2>El sitio</h2>
+            <p>Estancia La Frontera es una página web que muestra todo lo que podés vivir en una estancia de campo: naturaleza, tranquilidad y actividades al aire libre. Está pensada para que la gente conozca el lugar, se informe y se anime a visitarlo. El sitio es fácil de recorrer y tiene fotos e información clara sobre lo que ofrece la estancia.
+			</p>
+        </div>
+		</section> 
+		</div>
+	
+<div class="propuesta-box">
+  <h2 class="propuesta-titulo" id="propuesta">Propuesta</h2>
+  <div class="columna">
+    <p>
+      El sitio web busca reflejar el ambiente cálido, natural y auténtico de la estancia, 
+      transmitiendo una experiencia cercana y atractiva para quienes lo visiten. A través de 
+      un diseño simple, imágenes reales y una navegación intuitiva, se invita a las personas 
+      a conocer todo lo que la estancia ofrece: desde su historia y su entorno, hasta las 
+      actividades rurales y de contacto con la naturaleza. El tono es amigable y transmite la 
+      tranquilidad y la esencia de la vida en el campo.
+    </p>
+  </div>
+  <div class="columna">
+    <p>
+      Además, el sitio está pensado para familias, parejas, amigos y turistas que buscan 
+      desconectarse del ritmo urbano y disfrutar de un entorno natural. Por eso, la propuesta 
+      no solo brinda información clara sobre servicios y actividades, sino que también 
+      facilita el acceso a datos de contacto, ubicación y experiencias de otros visitantes. 
+      Todo el contenido está organizado de forma simple para que cada usuario encuentre lo que 
+      necesita de manera rápida y sencilla.
+    </p>
+  </div>
+</div>
+
+<div class="contenedor1">
+		<section id="wireframe" class="contenedor2">
+		<div class="texto">
+            <h2>Wireframe</h2>
+            <p>El sitio busca transmitir la esencia de la estancia mediante un diseño simple, visual y fácil de usar. Está pensado para que los visitantes encuentren rápidamente información sobre las actividades, servicios, contacto y puedan conocer el lugar a través de imágenes que reflejan la experiencia rural y el entorno natural.
+			</p>
+        </div>
+		<img src="wireframe.png" alt="wireframe" class="elsitio">
+		</section> 
+</div>
+
+<div class="contenedor1">
+		<section id="diseño" class="contenedor3">
+        <img src="diseno.png" alt="diseño" class="disenoimg">
+		<div class="texto">
+            <h2 class="diseno">Diseño</h2>
+            <p>El diseño es simple, ordenado y visual, pensado para transmitir la tranquilidad y la limpieza del entorno. Predominan los colores neutros como blanco, gris y azul, que aportan una estética fresca, clara y prolija. Se prioriza una navegación sencilla e intuitiva, con imágenes grandes que muestran las actividades y el paisaje, y textos breves que acompañan la experiencia. La estética busca ser acogedora, moderna y transmitir la esencia de la estancia de manera auténtica.
+			</p>
+        </div>
+		</section> 
+		</div>
+
+<div>
+	<h2 class="diseno" id="resultado">Resultado</h2>
+<div class="slider-wrapper">
+  <button class="slider-btn prev" onclick="moverSlider(-1)">◀</button>
+
+  <div class="slider">
+    <div class="slide"><img src="banner1.png" alt="Imagen 1"></div>
+    <div class="slide"><img src="banner 2.png" alt="Imagen 2"></div>
+    <div class="slide"><img src="banner3.png" alt="Imagen 3"></div>
+    <div class="slide"><img src="banner4.png" alt="Imagen 4"></div>
+    <div class="slide"><img src="banner5.png" alt="Imagen 5"></div>
+  </div>
+
+  <button class="slider-btn next" onclick="moverSlider(1)">▶</button>
+</div>
+</div>	
+
+	
+<div class="contenedor-boton-unico">
+  <button onclick="abrirGaleriaModal()" class="boton-galeria-unico" id="presupuesto">Presupuesto</button>
+</div>
+
+<div id="galeriaModalUnico" class="modal-unico">
+  <div class="contenido-modal-unico">
+    <span class="cerrar-modal-unico" onclick="cerrarGaleriaModal()">&times;</span>
+    <div class="slider-galeria-unico">
+      <div class="track-galeria-unico" id="trackGaleriaUnico">
+        <div class="slide-galeria"><img src="presupuesto1.png" alt="Imagen 1"></div>
+        <div class="slide-galeria"><img src="presupuesto2.png" alt="Imagen 2"></div>
+        
+      </div>
+      <button class="control-galeria prev-galeria" onclick="moverGaleria(-1)">‹</button>
+      <button class="control-galeria next-galeria" onclick="moverGaleria(1)">›</button>
+    </div>
+  </div>
+</div>
+
+
+	
+	
+</body>
+</html>
